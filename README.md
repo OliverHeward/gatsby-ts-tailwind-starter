@@ -71,3 +71,25 @@ import { Button } from '@/components/Button';
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more information.
+
+
+## MISSING DEPENDENCIES
+
+- gatsby-plugin-image (plus others)
+	- Types need writing for
+		- Header (IGatsbyImageData)
+
+
+Context (global state) set up 🟩 - with menu 🟩 + portal 🟩 + Lightbox 🟧
+SSR file for Portal injection 🟩
+Portal Component 🟩
+Header Component 🟩
+Footer Component 🟩
+Sidedrawer Component 🟩
+Title 🟩
+Text 🟩
+Anchor (links && Button Link) 🟩
+Buttons 🟩
+Inputs (All types) 🟩
+Cookie Banner
+Container - (sets max width etc) 🟩

@@ -1,4 +1,4 @@
-import Title from '@/components/Title'
+import { Title } from '@/components/UI/TitleCore'
 import { BaseComponentProps } from '@/types'
 import { FC } from 'react'
 
@@ -10,7 +10,7 @@ interface HomePageProps extends BaseComponentProps {
 const Home: FC<HomePageProps> = () => {
 	return (
 		<main>
-			<Title>Hello TypeScript 💙</Title>
+			<Title.ExtraLarge variant="h1">Hello TypeScript 💙</Title.ExtraLarge>
 			<p>A TypeScript starter for Gatsby, with Tailwind CSS preconfigured.</p>
 		</main>
 	)
