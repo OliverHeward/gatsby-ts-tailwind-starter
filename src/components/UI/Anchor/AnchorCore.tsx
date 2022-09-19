@@ -6,7 +6,7 @@ export interface AnchorCoreProps extends GatsbyLinkProps<{ state: false }> {
 	className?: string
 	children: ReactNode
 	external?: boolean
-	clickHandler: (event: MouseEvent<HTMLAnchorElement>) => void
+	clickHandler?: (event: MouseEvent<HTMLAnchorElement>) => void
 }
 
 export const AnchorCore: FC<AnchorCoreProps> = ({

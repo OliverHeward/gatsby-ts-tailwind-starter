@@ -6,10 +6,10 @@ export const Layout: FC<{ children: ReactNode; locale: string }> = ({
 	children,
 }) => {
 	return (
-		<div>
+		<main>
 			<Header locale={`en`} />
 			<div className="mt-[68px]">{children}</div>
 			<Footer locale={`en`} />
-		</div>
+		</main>
 	)
 }

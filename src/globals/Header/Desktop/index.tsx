@@ -6,5 +6,5 @@ export const Desktop: FC<HeaderProps> = ({
 	navigationLinks = [],
 	headerSocials = [],
 }) => {
-	return <div>Header</div>
+	return <div className="lg:block hidden">Desktop Header</div>
 }

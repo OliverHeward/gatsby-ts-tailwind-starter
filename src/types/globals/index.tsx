@@ -1,9 +1,9 @@
-// import { IGatsbyImageData } from 'gatsby-plugin-image'
+import { IGatsbyImageData } from 'gatsby-plugin-image'
 
 export interface HeaderProps {
 	locale: string
 	logo: {
-		// gatsbyImageData: IGatsbyImageData
+		gatsbyImageData: IGatsbyImageData
 		alt: string
 	}
 	navigationLinks: {
