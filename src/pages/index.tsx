@@ -1,3 +1,4 @@
+import { ExampleForm } from '@/components/Examples/Form'
 import { Anchor } from '@/components/UI/Anchor'
 import { Text } from '@/components/UI/TextCore'
 import { Title } from '@/components/UI/TitleCore'
@@ -42,6 +43,8 @@ const Home: FC<HomePageProps> = () => {
 					External Button
 				</Anchor.Button>
 			</div>
+
+			<ExampleForm />
 		</Layout>
 	)
 }

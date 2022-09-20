@@ -25,6 +25,12 @@ export const Tel: FC<TelProps> = ({
 		onChange(_value)
 	}
 
+	/**
+	 * TODO: This needs to have some validation to prevent allowing free text usage
+	 * TODO: ALLOW ONLY NUMBERS - MUST REMAIN STRING TYPE THOUGH.
+	 *
+	 */
+
 	return (
 		<input
 			{...{
@@ -33,7 +39,7 @@ export const Tel: FC<TelProps> = ({
 				placeholder: placeholder || label || body,
 				value,
 				onChange: _onChange,
-				className: cx(`appearance-none outline-none focus:ring-0 p-4`, className),
+				className: cx(`appearance-none outline-none focus:ring-0 p-4 border border-black`, className),
 				...rest,
 			}}
 		/>
